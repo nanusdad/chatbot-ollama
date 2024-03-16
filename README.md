@@ -1,3 +1,11 @@
+# Quick start
+```shell
+python3 -m fastchat.serve.controller
+python3 -m fastchat.serve.model_worker --model-path lmsys/vicuna-7b-v1.5
+python3 -m fastchat.serve.test_message --model-name vicuna-7b-v1.5		# Test
+python3 -m fastchat.serve.gradio_web_server
+```
+
 # Chatbot Ollama
 
 ## About
